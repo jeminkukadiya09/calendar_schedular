@@ -1,4 +1,4 @@
-export default [
+export const events = [
   {
     id: 0,
     title: "28 %",
@@ -38,3 +38,5 @@ export default [
     end: new Date(2023, 7, 26, 6, 0, 0, 0),
   },
 ];
+
+export default events;
