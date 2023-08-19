@@ -1,0 +1,95 @@
+/* REACT BIG CALENDER CUSTOM CSS START */
+.schedular__calendar .rbc-timeslot-group {
+  min-height: 50px;
+}
+.schedular__calendar .rbc-day-slot .rbc-time-slot,
+.schedular__calendar .rbc-time-content {
+  border-top: none;
+}
+.schedular__calendar .rbc-allday-cell {
+  display: none;
+}
+.schedular__calendar .rbc-event,
+.rbc-day-slot .rbc-background-event {
+  background-color: #4d62ff;
+  border: none;
+}
+.schedular__calendar .rbc-event-content {
+  color: #000;
+  padding: 5px 5px;
+  background: #fff;
+  height: 26px;
+  width: 47px;
+  border-radius: 6px;
+  margin-top: 5px;
+  font-weight: 500;
+}
+.rbc-button-link span {
+  font-weight: 500;
+}
+/* REACT BIG CALENDER CUSTOM CSS END */
+
+/* POPOVER CUSTOM CSS START */
+.bs-popover-auto[data-popper-placement^="left"] > .popover-arrow::after,
+.bs-popover-start > .popover-arrow::after,
+.bs-popover-auto[data-popper-placement^="left"] > .popover-arrow::before,
+.bs-popover-start > .popover-arrow::before,
+.popover .popover-arrow::after,
+.popover .popover-arrow::before {
+  display: none;
+  border-left-color: none;
+}
+.popover {
+  min-width: 400px;
+}
+.popover-header {
+  background-color: transparent;
+  border-bottom: none;
+}
+.custom__form label,
+P {
+  color: #5f666d;
+}
+.custom__form label {
+  font-weight: 500;
+}
+.funded__offer {
+  margin-right: 10px;
+}
+.custom__form input,
+.event-info span {
+  background-color: #f0f1f2;
+  border: none;
+}
+.event-info span {
+  border-radius: 6px;
+  padding: 2px 10px;
+}
+.event-icon {
+  margin-right: 10px;
+}
+.event-info .start {
+  margin-right: 6px;
+}
+.event-info .end,
+.event-details p {
+  margin-left: 6px;
+}
+.watch__icon {
+  height: 25px;
+  width: 25px;
+}
+.save__btn,
+.delete__btn {
+  color: #fff;
+  border: none;
+}
+.save__btn {
+  margin-left: 6px;
+  background-color: #001fff;
+}
+.delete__btn {
+  margin-right: 6px;
+  background-color: #ff3373;
+}
+/* POPOVER CUSTOM CSS END */
